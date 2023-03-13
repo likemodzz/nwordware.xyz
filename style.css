@@ -4,7 +4,7 @@ body {
   height: 100vh;
   place-items: center;
   background: #506350;
-  color: whitesmoke;
+  color: white;
   font-family: monospace;
 }
 
@@ -55,7 +55,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    background-color: rgba(0, 0, 0, 0);
     padding: 30px 120px;
     border-radius: 50px;
     text-align: center;
