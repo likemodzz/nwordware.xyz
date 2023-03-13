@@ -55,8 +55,8 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.13);
-    padding: 50px 120px;
-    border-radius: 10px;
+    padding: 30px 120px;
+    border-radius: 50px;
     text-align: center;
   }
 
@@ -65,18 +65,33 @@ html {
 
   }
 
+  #pfp
+  {
+    background-image: url('pfp.jpg');
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 10px;
+    border-radius: 50px;
+  }
+
   #Bio {
     font-size: 2em;
     margin-bottom: 15px;
+    
   }
 
 
   #logo1 {
     background-image: url('snaplogo.png');
+
   }
 
   #logo2 {
     background-image: url('instagramlogo.png');
+    scale: 0.8;
   }
 
   #logo3 {
@@ -85,10 +100,11 @@ html {
 
   #logo4 {
     background-image: url('steamlogo.png');
+    scale: 0.8;
   }
 
   .logo:hover {
-transform: scale(1.2);
+transform: scale(1.1);
 }
 
 .logo {
