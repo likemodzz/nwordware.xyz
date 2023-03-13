@@ -54,7 +54,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.13);
+ 
     padding: 30px 120px;
     border-radius: 50px;
     text-align: center;
